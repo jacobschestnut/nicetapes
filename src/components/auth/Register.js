@@ -37,14 +37,16 @@ export const Register = () => {
                         },
                         body: JSON.stringify({
                             email: registerUser.email,
-                            name: `${registerUser.firstName} ${registerUser.lastName}`
+                            username: registerUser.username,
+                            quote: registerUser.quote,
+                            imageLink: registerUser.imageLink
                         })
                     })
                         .then(res => res.json())
                         .then(createdUser => {
                             if (createdUser.hasOwnProperty("id")) {
                                 // The user id is saved under the key nutshell_user in session Storage. Change below if needed!
-                                sessionStorage.setItem("nutshell_user", createdUser.id)
+                                sessionStorage.setItem("niceTapes_user", createdUser.id)
                                 navigate("/")
                             }
                         })
@@ -65,21 +67,25 @@ export const Register = () => {
             </dialog>
 
             <form className="form--login" onSubmit={handleRegister}>
-                <h1 className="h3 mb-3 font-weight-normal">Please Register for Application Name</h1>
+                <h1 className="h3 mb-3 font-weight-normal">Welcome to Nice Tapes!</h1>
                 <fieldset>
-                    <label htmlFor="firstName"> First Name </label>
-                    <input type="text" name="firstName" id="firstName" className="form-control" placeholder="First name" required autoFocus value={registerUser.firstName} onChange={handleInputChange} />
+                    <label htmlFor="username"> Username: </label>
+                    <input type="text" name="username" id="username" className="form-control" placeholder="username" required autoFocus value={registerUser.username} onChange={handleInputChange} />
                 </fieldset>
                 <fieldset>
-                    <label htmlFor="lastName"> Last Name </label>
-                    <input type="text" name="lastName" id="lastName" className="form-control" placeholder="Last name" required value={registerUser.lastName} onChange={handleInputChange} />
+                    <label htmlFor="inputEmail"> Email Address: </label>
+                    <input type="email" name="email" id="email" className="form-control" placeholder="email address" required value={registerUser.email} onChange={handleInputChange} />
                 </fieldset>
                 <fieldset>
-                    <label htmlFor="inputEmail"> Email address </label>
-                    <input type="email" name="email" id="email" className="form-control" placeholder="Email address" required value={registerUser.email} onChange={handleInputChange} />
+                    <label htmlFor="inputQuote"> Favorite Movie Quote: </label>
+                    <input type="text" name="quote" id="quote" className="form-control" placeholder="quote" requried value={registerUser.quote} onChange={handleInputChange} />
                 </fieldset>
                 <fieldset>
-                    <button type="submit"> Sign in </button>
+                    <label htmlFor="inputImageLink"> Profile Photo:  </label>
+                    <input type="text" name="imageLink" id="imageLink" className="form-control" placeholder="link to image" requried value={registerUser.imageLink} onChange={handleInputChange} />
+                </fieldset>
+                <fieldset>
+                    <button type="submit"> Register </button>
                 </fieldset>
             </form>
         </main>

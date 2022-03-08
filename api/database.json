@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+        "email": "sillywilly95@gmail.com",
+        "username": "XxlostboyxX",
+        "quote": "You don't have to beat me, Michael. You just have to try and keep up.",
+        "imageLink": "https://cutewallpaper.org/21/the-lost-boys-wallpapers/The-Lost-Boys-1987-Phone-Wallpaper-Moviemania.jpg",
+        "id": 1
+    },
+    {
+        "email": "wrestlingfan11@gmail.com",
+        "username": "MyNameIsTyler",
+        "quote": "If you ain't first, you're last.",
+        "imageLink": "https://junglejimssafari.com/wp-content/uploads/2020/01/Man-Holding-Massive-Fish-From-Marco-Island-Fishing-Charters.jpg",
+        "id": 2
+    },
+    {
+        "email": "asdfjkldsfa@yahoo.com",
+        "username": "bigSm0ke",
+        "quote": "Let's start a fight club!",
+        "imageLink": "https://www.pcinvasion.com/wp-content/uploads/2021/08/Kings-Bounty-2-Kings-Bounty-II-how-to-recrruit-red-dragon-bone-dragon-chimera--800x400.jpg",
+        "id": 3
+    },
+    {
+        "email": "tinyman41@hotmail.com",
+        "username": "Realeyezz11",
+        "quote": "Nobody beats me in the kitchen.",
+        "imageLink": "https://cutewallpaper.org/21/the-lost-boys-wallpapers/The-Lost-Boys-1987-Phone-Wallpaper-Moviemania.jpg",
+        "id": 4
+    },
+    {
+        "email": "eric@gmail.com",
+        "username": "D@rkGh0st",
+        "quote": "The sixth sense.",
+        "imageLink": "http://images6.fanpop.com/image/photos/40000000/Grim-Reapers-awesome-skulls-n-stuff-40009149-299-266.jpg",
+        "id": 5
+    }
+  ],
+  "friends": [],
+  "movies": [],
+  "collections": [],
+  "reviews": []
+}
