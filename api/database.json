@@ -36,7 +36,108 @@
         "id": 5
     }
   ],
-  "friends": [],
+  "friends": [
+    {
+        "id": 1,
+        "currentUserId": 1,
+        "userId": 2
+    },
+    {
+        "id": 2,
+        "currentUserId": 1,
+        "userId": 3
+    },
+    {
+        "id": 3,
+        "currentUserId": 1,
+        "userId": 4
+    },
+    {
+        "id": 4,
+        "currentUserId": 1,
+        "userId": 5
+    },
+    {
+        "id": 5,
+        "currentUserId": 2,
+        "userId": 1
+    },
+    {
+        "id": 6,
+        "currentUserId": 2,
+        "userId": 3
+    },
+    {
+        "id": 7,
+        "currentUserId": 2,
+        "userId": 4
+    },
+    {
+        "id": 8,
+        "currentUserId": 2,
+        "userId": 5
+    },
+    {
+        "id": 9,
+        "currentUserId": 3,
+        "userId": 1
+    },
+    {
+        "id": 10,
+        "currentUserId": 3,
+        "userId": 2
+    },
+    {
+        "id": 11,
+        "currentUserId": 3,
+        "userId": 4
+    },
+    {
+        "id": 12,
+        "currentUserId": 3,
+        "userId": 5
+    },
+    {
+        "id": 13,
+        "currentUserId": 4,
+        "userId": 1
+    },
+    {
+        "id": 14,
+        "currentUserId": 4,
+        "userId": 2
+    },
+    {
+        "id": 15,
+        "currentUserId": 4,
+        "userId": 3
+    },
+    {
+        "id": 16,
+        "currentUserId": 4,
+        "userId": 5
+    },
+    {
+        "id": 17,
+        "currentUserId": 5,
+        "userId": 1
+    },
+    {
+        "id": 18,
+        "currentUserId": 5,
+        "userId": 2
+    },
+    {
+        "id": 19,
+        "currentUserId": 5,
+        "userId": 3
+    },
+    {
+        "id": 20,
+        "currentUserId": 5,
+        "userId": 4
+    }
+  ],
   "movies": [],
   "collections": [],
   "reviews": []
