@@ -38,26 +38,6 @@
   ],
   "friends": [
     {
-      "id": 1,
-      "currentUserId": 1,
-      "userId": 2
-    },
-    {
-      "id": 2,
-      "currentUserId": 1,
-      "userId": 3
-    },
-    {
-      "id": 3,
-      "currentUserId": 1,
-      "userId": 4
-    },
-    {
-      "id": 4,
-      "currentUserId": 1,
-      "userId": 5
-    },
-    {
       "id": 5,
       "currentUserId": 2,
       "userId": 1
@@ -136,6 +116,26 @@
       "id": 20,
       "currentUserId": 5,
       "userId": 4
+    },
+    {
+      "currentUserId": 1,
+      "userId": 4,
+      "id": 21
+    },
+    {
+      "currentUserId": 1,
+      "userId": 3,
+      "id": 22
+    },
+    {
+      "currentUserId": 1,
+      "userId": 2,
+      "id": 23
+    },
+    {
+      "currentUserId": 1,
+      "userId": 5,
+      "id": 24
     }
   ],
   "movies": [],

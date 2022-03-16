@@ -6,6 +6,9 @@ import CloseIcon from "@material-ui/icons/Close";
 export const SearchBar = ({ placeholder, data }) => {
   const [filteredData, setFilteredData] = useState([]);
   const [wordEntered, setWordEntered] = useState("");
+  const [currentUser, setCurrentUser] = useState(JSON.parse(sessionStorage.getItem("niceTapes_user")));
+  
+  const API = "http://localhost:8088"
 
   const handleFilter = (event) => {
     const searchWord = event.target.value;
@@ -26,8 +29,17 @@ export const SearchBar = ({ placeholder, data }) => {
     setWordEntered("");
   };
 
-  const handleSaveNewFollow = (id) => {
-    console.log(id)
+  const handleFollow = (userId) => { // takes userId from filtered array as argument
+    return fetch(`${API}/friends`, {
+      method: "POST",
+      headers: {
+          "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        currentUserId: currentUser.id,
+        userId: userId,
+      })
+    }).then(response => response.json());
   }
 
   return (
@@ -55,7 +67,7 @@ export const SearchBar = ({ placeholder, data }) => {
                 <a className="dataItem" target="_blank">
                   <p>{value.username}</p>
                   <div className="space"></div>
-                  <button id="bn2" onClick={() => {handleSaveNewFollow(value.id)}}>Follow</button>
+                  <button id="bn2" onClick={() => {handleFollow(value.id)}}>Follow</button>
                 </a>
               </div>
             );
