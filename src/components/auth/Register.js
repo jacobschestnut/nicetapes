@@ -39,7 +39,8 @@ export const Register = () => {
                             email: registerUser.email,
                             username: registerUser.username,
                             quote: registerUser.quote,
-                            imageLink: registerUser.imageLink
+                            imageLink: registerUser.imageLink,
+                            profileLink: `http://localhost:3000/users/${registerUser.username}`
                         })
                     })
                         .then(res => res.json())

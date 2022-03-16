@@ -3,6 +3,7 @@ import { Route, Routes, Navigate } from "react-router-dom"
 import { Login } from './auth/Login'
 import { Register } from './auth/Register'
 import { Friends } from './friends/Friends.js'
+import { Profile } from './profile/Profile.js'
 
 export const ApplicationViews = ({ isAuthenticated, setIsAuthenticated }) => {
   const PrivateRoute = ({ children }) => {
@@ -26,7 +27,8 @@ export const ApplicationViews = ({ isAuthenticated, setIsAuthenticated }) => {
             </PrivateRoute>
         } />
 
-        <Route path="/friends" element={<PrivateRoute><Friends /></PrivateRoute>} />
+        <Route path="/follows" element={<PrivateRoute><Friends /></PrivateRoute>} />
+        <Route path="/users/:profileId" element={<Profile/>} />
 
       </Routes>
     </>

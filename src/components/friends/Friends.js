@@ -2,14 +2,22 @@ import { useEffect, useState } from "react";
 import React from "react";
 import { FriendCard } from "./FriendCard";
 import { getFollowedFriends, deleteFriend } from "../modules/FriendManager";
+import { getAllUsers } from "../modules/UserManager";
 import "./Friends.css"
-import { FriendDetail } from "./FriendDetail";
+import { SearchBar } from "./SearchBar";
 
 
 export const Friends = () => {
 
     const [friends, setFriends] = useState([]);
-    const [currentUser, setCurrentUser] = useState(JSON.parse(sessionStorage.getItem("niceTapes_user"))); //sessionStorage gets the currently logged in user
+    const [currentUser, setCurrentUser] = useState(JSON.parse(sessionStorage.getItem("niceTapes_user")));
+    const [userData, setUserData] = useState([]);
+
+    useEffect(() => {
+      getAllUsers().then(users => {
+          setUserData(users)
+      })
+    }, []);
     
     const handleDeleteFriend = id => {
         deleteFriend(id)
@@ -25,7 +33,10 @@ export const Friends = () => {
     return (
         <div className="container">
             <div className="title-wrapper">
-                <h1><span>Friends List</span></h1>
+                <h1><span>Following</span></h1>
+            </div>
+            <div className="searchWrapper">
+                <SearchBar placeholder="Search for friends..." data={userData}/>
             </div>
             <div>
                 <div className="container-cards">

@@ -18,7 +18,7 @@ export const NavBar = () => {
             <Link className="nav-link" to="/collection">My Collection</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/friends">Friends</Link>
+            <Link className="nav-link" to="/follows">Following</Link>
           </li>
           <li>
             <Link className="nav-item" to="/reviews">My Reviews</Link>
