@@ -6,24 +6,27 @@ export const NavBar = () => {
   return (
     <nav>
 
-      <Link className="nav-item" to="/">
-          <img src="/images/nicetapes.png" className="nav-link logo" />
-      </Link>
+      <div className="navBarSpacerLogo">
+        <Link className="nav-item" to="/">
+            <h1 id="logoText">nice tapes</h1>
+            {/* <img src="/images/nicetapes.png" className="nav-link logo" /> */}
+        </Link>
+      </div>
 
-      <div className="space"></div>
+      <div className="navBarSpacerCenterItems">
+        
+              <Link id="nav-link" to="/collection">Collection</Link>
+           
+             
+              <Link id="nav-link" to="/follows">Following</Link>
+          
+           
+              <Link id="nav-link" to="/reviews">Reviews</Link>            
+      
+      </div>
 
-      <ul>
-          <li className="space"></li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/collection">My Collection</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/follows">Following</Link>
-          </li>
-          <li>
-            <Link className="nav-item" to="/reviews">My Reviews</Link>
-          </li>
-      </ul>
+      <div className="navBarSpacerIcons"></div>
+      
 
     </nav>
   )

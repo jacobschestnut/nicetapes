@@ -59,3 +59,8 @@
     );
     animation: background 3s linear infinite;
 }
+
+#userNameDisplay {
+    font-family: 'VCROSDMono';
+    font-weight: lighter;
+}

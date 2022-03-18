@@ -4,7 +4,7 @@
 
 .searchInputs {
 display: flex;
-border: solid 0.5px #737475;
+border: solid 0.5px black;
 }
 
 .searchWrapper {
@@ -119,4 +119,8 @@ animation: background 3s linear infinite;
 
 #clearBtn {
 cursor: pointer;
+}
+
+input , p{
+    font-family: 'VCROSDMono';
 }

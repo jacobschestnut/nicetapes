@@ -1,3 +1,10 @@
+.container-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .friend-list {
     display: flex;
     flex-direction: row;
@@ -6,7 +13,6 @@
 }
 
 .friendCard {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -15,8 +21,9 @@
     height: 200px;
     background-size: contain;
     background-repeat: no-repeat;
-    border-radius: 6%;
+    border: 1px solid black;
     text-align: center;
+    margin: 25px;
 }
 
 .img-wrapper {
@@ -36,5 +43,5 @@
 
 .title-wrapper {
     text-align: center;
-    margin: 2em auto 2em auto;
+    margin: 2em auto 4em auto;
 }

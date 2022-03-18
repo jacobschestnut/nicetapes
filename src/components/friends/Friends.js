@@ -36,7 +36,7 @@ export const Friends = () => {
                 <h1><span>Following</span></h1>
             </div>
             <div className="searchWrapper">
-                <SearchBar placeholder="Search for friends..." data={userData}/>
+                <SearchBar id="searchBar-font" placeholder="Search for users..." data={userData}/>
             </div>
             <div>
                 <div className="container-cards">
