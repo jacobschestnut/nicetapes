@@ -1,8 +1,12 @@
 import React from "react"
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom"
 import "./NavBar.css"
 
 export const NavBar = () => {
+
+  const [currentUser, setCurrentUser] = useState(JSON.parse(sessionStorage.getItem("niceTapes_user")));
+
   return (
     <nav>
 
@@ -15,7 +19,7 @@ export const NavBar = () => {
 
       <div className="navBarSpacerCenterItems">
         
-              <Link id="nav-link" to="/collection">Collection</Link>
+              <Link id="nav-link" to={`/collections/${currentUser.id}`}>Collection</Link>
            
              
               <Link id="nav-link" to="/follows">Following</Link>

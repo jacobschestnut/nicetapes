@@ -25,42 +25,27 @@
     margin-bottom: 10px;
 }
 
-#bn1 {
-    text-align: center;
-    margin: 5px auto 10px auto;
-    outline: none;
+button {
     border: none;
-    background-color: #232423;
-    padding: 0.3em 1.2em;
-    border-radius: 30px;
-    font-size: 0.6rem;
-    font-weight: 550;
-    color: #ffffff;
-    background-size: 100% 100%;
-    box-shadow: 0 0 0 4px #232423 inset;
-    width: 150px;
-    height: 30px;
-    cursor: pointer;
+    background-color: transparent;
+    outline: none;
 }
-  
-#bn1:hover {
-    background-image: linear-gradient(
-      55deg,
-      transparent 10%,
-      #161616 10% 20%,
-      transparent 20% 30%,
-      #161616 30% 40%,
-      transparent 40% 50%,
-      #161616 50% 60%,
-      transparent 60% 70%,
-      #161616 70% 80%,
-      transparent 80% 90%,
-      #161616 90% 100%
-    );
-    animation: background 3s linear infinite;
+
+#ejectImg {
+    height: 30px;
+}
+
+#ejectImg:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 #userNameDisplay {
     font-family: 'VCROSDMono';
     font-weight: lighter;
+}
+
+#userNameDisplay:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }

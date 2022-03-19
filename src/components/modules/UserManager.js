@@ -6,6 +6,6 @@ export const getAllUsers = () => {
 }
 
 export const getUserById = (userId) => {
-    return fetch(`${remoteURL}/user/${userId}`)
+    return fetch(`${remoteURL}/users/${userId}`)
     .then(res => res.json())
 }
