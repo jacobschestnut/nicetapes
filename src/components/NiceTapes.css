@@ -11,10 +11,22 @@
     font-display: swap;
 }
 
-h1, h2, h2 {
+h1, h2, h3 {
     font-family: 'VCROSDMono';
 }
 
 .space {
     flex-grow: 1;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#ejectBtn {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: default;
 }

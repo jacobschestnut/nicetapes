@@ -1,5 +1,6 @@
 import userEvent from "@testing-library/user-event";
 import React from "react"
+import {Link} from "react-router-dom"
 import "./Profile.css"
 import { useEffect, useState } from "react";
 import {useParams} from 'react-router-dom'
@@ -33,6 +34,7 @@ export const Profile = () => {
                     </div>
                 </div>
             </section>
+            <Link to={`/collections/${user.id}`}><button>{user.username}'s collection</button></Link>
            </div> 
         </>
     )

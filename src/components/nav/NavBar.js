@@ -19,13 +19,13 @@ export const NavBar = () => {
 
       <div className="navBarSpacerCenterItems">
         
-              <Link id="nav-link" to={`/collections/${currentUser.id}`}>Collection</Link>
+              <Link id="nav-link" to="/mycollection">Collection</Link>
            
              
               <Link id="nav-link" to="/follows">Following</Link>
           
            
-              <Link id="nav-link" to="/reviews">Reviews</Link>            
+              {/* <Link id="nav-link" to="/reviews">Reviews</Link>             */}
       
       </div>
 

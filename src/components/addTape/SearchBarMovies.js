@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
-import {Link} from "react-router-dom"
-import "./SearchBar.css";
+import "./SearchBarMovies.css";
 import SearchIcon from "@material-ui/icons/Search";
 import CloseIcon from "@material-ui/icons/Close";
 
-export const SearchBar = ({ placeholder, data }) => {
+export const SearchBarMovies = ({ placeholder, data }) => {
   const [filteredData, setFilteredData] = useState([]);
   const [wordEntered, setWordEntered] = useState("");
   const [currentUser, setCurrentUser] = useState(JSON.parse(sessionStorage.getItem("niceTapes_user")));
+  
   
   const API = "http://localhost:8088"
 
@@ -15,7 +15,7 @@ export const SearchBar = ({ placeholder, data }) => {
     const searchWord = event.target.value;
     setWordEntered(searchWord);
     const newFilter = data.filter((value) => {
-      return value.username.toLowerCase().includes(searchWord.toLowerCase());
+      return value.title.toLowerCase().includes(searchWord.toLowerCase());
     });
 
     if (searchWord === "") {
@@ -30,17 +30,17 @@ export const SearchBar = ({ placeholder, data }) => {
     setWordEntered("");
   };
 
-  const handleFollow = (userId) => { // takes userId from filtered array as argument
-    return fetch(`${API}/friends`, {
+  const handleAddTitle = (movieId) => { // takes userId from filtered array as argument
+    return fetch(`${API}/collections`, {
       method: "POST",
       headers: {
           "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        currentUserId: currentUser.id,
-        userId: userId,
+        movieId: movieId,
+        userId: currentUser.id,
       })
-    }).then(response => response.json());
+    }).then(response => response.json()).then(alert("Tape Added to Collection!"));
   }
 
   return (
@@ -65,11 +65,10 @@ export const SearchBar = ({ placeholder, data }) => {
           {filteredData.slice(0, 15).map((value, key) => {
             return (
               <div className="dataResultWrapper" key={value.id}>
-                <Link className="dataItem" to={`/users/${value.id}`}>
-                  <p>{value.username}</p>
-                  <div className="space"></div>
-                </Link>
-                <button id="ejectBtn"><img src="https://cdn.iconscout.com/icon/free/png-256/eject-43-432789.png" id="ejectImg" type="button" onClick={() => handleFollow(value.id)}/></button>
+                <a className="dataItem" target="_blank">
+                  <p>{value.title}</p>
+                  <button id="bn2" onClick={() => {handleAddTitle(value.id)}}>Add to Collection</button>
+                </a>
               </div>
             );
           })}
@@ -79,4 +78,4 @@ export const SearchBar = ({ placeholder, data }) => {
   );
 }
 
-export default SearchBar;
+export default SearchBarMovies;

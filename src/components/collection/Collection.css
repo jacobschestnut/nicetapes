@@ -3,3 +3,14 @@
     flex-direction: row;
     justify-content: center;
 }
+
+.collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.movie-collection {
+    margin-bottom: 50px;
+}

@@ -6,27 +6,12 @@
     margin: 0 20px 20px 20px;
 }
 
-.movie-card-img-wrapper {
-    position: relative;
-    height: 50px;
-    width: 100%;
-}
-
-.movie-card-img {
-    position: relative;
-    display: inline-block;
-}
-
 .cardInfo {
     font-family: 'VCROSDMono';
     font-weight: normal;
-    display: none;
-    color: #fff;
-    left : 0;
-    top : 45%;
-    right : 0;
+    display: flex;
+    flex-direction: column;
     text-align : center;
-    position: absolute;
 }
 
 #cardInfo h3 {
@@ -36,19 +21,4 @@
 
 #cardInfo p {
     margin: 0;
-}
-
-.movie-card-img:hover > .overlay {
-    position: absolute;
-    top: 0;
-    width:100%;
-    height:99.5%;
-    left: 0;
-    background-color:#000;
-    opacity:0.5;
-    display: block;
-}
-
-.movie-card-img:hover .info {
-    display: block;
 }

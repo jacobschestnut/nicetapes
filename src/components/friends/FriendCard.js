@@ -12,7 +12,7 @@ export const FriendCard = ({friend, handleDeleteFriend}) => {
                     <img className="friend__img" src={friend.user.imageLink} alt="profile pic here"></img>
                 </div>
                 <div className="button-wrapper">
-                    <button><img src="https://cdn.iconscout.com/icon/free/png-256/eject-43-432789.png" id="ejectImg" type="button" onClick={() => handleDeleteFriend(friend.id)}/></button>
+                    <button id="ejectBtn"><img src="https://cdn.iconscout.com/icon/free/png-256/eject-43-432789.png" id="ejectImg" type="button" onClick={() => handleDeleteFriend(friend.id)}/></button>
                 </div>
         </div>
     )

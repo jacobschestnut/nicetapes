@@ -2,11 +2,10 @@ import React from "react";
 import { useEffect, useState } from "react";
 import {useParams, Link} from 'react-router-dom'
 import "./Collection.css";
-import { getUserById } from "../modules/UserManager";
-import { CollectionCard } from "./CollectionCard";
+import { MyCollectionCard } from "./MyCollectionCard";
 import { deleteMovie, getCollectionByUser } from "../modules/CollectionManager";
 
-export const Collection = () => {
+export const MyCollection = () => {
     const params = useParams()
     const [userId, setUserId] = useState(parseInt(params.profileId));
     const [user, setUser] = useState({});
@@ -14,13 +13,7 @@ export const Collection = () => {
     const [currentUser, setCurrentUser] = useState(JSON.parse(sessionStorage.getItem("niceTapes_user")));
 
     useEffect(() => {
-        getUserById(userId).then((user) => {
-            setUser(user);
-        })
-    }, []);
-
-    useEffect(() => {
-        getCollectionByUser(userId).then((collection) => {
+        getCollectionByUser(currentUser.id).then((collection) => {
             setMovies(collection);
         })
     }, []);
@@ -33,12 +26,13 @@ export const Collection = () => {
     return (
         <div className="container">
            <div className="title-wrapper">
-                <h1><span>{user.username}'s Collection</span></h1>
+                <h1><span>My Collection</span></h1>
             </div> 
            <div className="collection">
             <section className="movie-collection">
-                {movies.map(movie => <CollectionCard key={movie.id} movie={movie} />)}
+                {movies.map(movie => <MyCollectionCard key={movie.id} movie={movie} handleDeleteMovie={handleDeleteMovie} />)}
             </section>
+            <Link id="add-tape-link" to={`/addtape`}><button className="add-tape-btn">Add Tape</button></Link>
             </div>
         </div>
     )
