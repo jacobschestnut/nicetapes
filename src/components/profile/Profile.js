@@ -1,4 +1,3 @@
-import userEvent from "@testing-library/user-event";
 import React from "react"
 import {Link} from "react-router-dom"
 import "./Profile.css"
@@ -21,10 +20,14 @@ export const Profile = () => {
     return (
         <>
            <div className="container">
+            <div className="profile">
             <section className="profile-info">
+    
+                
                 <div className="profile-img-wrapper">
                     <img className="profile-img" src={user.imageLink} />
                 </div>
+                
                 <div className="profile-text">
                     <div className="profile-title-wrapper">
                         <h1>{user.username}'s Profile</h1>
@@ -34,7 +37,8 @@ export const Profile = () => {
                     </div>
                 </div>
             </section>
-            <Link to={`/collections/${user.id}`}><button>{user.username}'s collection</button></Link>
+            <Link to={`/collections/${user.id}`}><button className="button">{user.username}'s collection</button></Link>
+           </div>
            </div> 
         </>
     )

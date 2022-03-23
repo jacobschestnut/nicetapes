@@ -67,8 +67,9 @@ export const SearchBarMovies = ({ placeholder, data }) => {
               <div className="dataResultWrapper" key={value.id}>
                 <a className="dataItem" target="_blank">
                   <p>{value.title}</p>
-                  <button id="bn2" onClick={() => {handleAddTitle(value.id)}}>Add to Collection</button>
+                  <div className="space"></div>
                 </a>
+                  <button id="ejectBtn"><img src="http://simpleicon.com/wp-content/uploads/play1.png" id="ejectImg" type="button" onClick={() => {handleAddTitle(value.id)}}/></button>
               </div>
             );
           })}

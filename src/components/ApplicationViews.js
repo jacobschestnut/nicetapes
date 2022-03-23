@@ -6,6 +6,7 @@ import { Friends } from './friends/Friends.js'
 import { Profile } from './profile/Profile.js'
 import { Collection } from "./collection/Collection"
 import { MyCollection } from "./collection/MyCollection"
+import { Home } from "./home/Home"
 import { AddTape } from "./addTape/AddTape"
 
 export const ApplicationViews = ({ isAuthenticated, setIsAuthenticated }) => {
@@ -26,16 +27,16 @@ export const ApplicationViews = ({ isAuthenticated, setIsAuthenticated }) => {
         <Route exact path="/register" element={<Register />} />
         <Route  path="/" element={
             <PrivateRoute>
-              Add component here
+              <Home />
             </PrivateRoute>
         } />
 
         <Route path="/follows" element={<PrivateRoute><Friends /></PrivateRoute>} />
-        <Route path="/users/:profileId" element={<Profile/>} />
-        <Route path="/collections/:profileId" element={<Collection/>} />
-        <Route path="/mycollection" element={<MyCollection />} />
+        <Route path="/users/:profileId" element={<PrivateRoute><Profile/></PrivateRoute>} />
+        <Route path="/collections/:profileId" element={<PrivateRoute><Collection/></PrivateRoute>} />
+        <Route path="/mycollection" element={<PrivateRoute><MyCollection /></PrivateRoute>} />
 
-        <Route path="/addtape" element={<AddTape/>} />
+        <Route path="/addtape" element={<PrivateRoute><AddTape/></PrivateRoute>} />
 
       </Routes>
     </>

@@ -1,11 +1,17 @@
 import React from "react"
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import "./NavBar.css"
 
 export const NavBar = () => {
 
   const [currentUser, setCurrentUser] = useState(JSON.parse(sessionStorage.getItem("niceTapes_user")));
+  const navigate = useNavigate()
+
+  const handleLogout = () => {
+    sessionStorage.clear().then(
+    navigate("/"));
+  }
 
   return (
     <nav>
@@ -29,7 +35,10 @@ export const NavBar = () => {
       
       </div>
 
-      <div className="navBarSpacerIcons"></div>
+      <div className="navBarSpacerIcons">
+        {/* <Link id="profile-btn" to={`/users/${currentUser.id}`}>Profile</Link> */}
+        <Link onClick={handleLogout} id="logout-btn" to="/login">Logout</Link>
+      </div>
       
 
     </nav>

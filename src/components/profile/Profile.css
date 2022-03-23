@@ -1,6 +1,22 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .profile-info {
     display: flex;
+    align-items: center;
+    margin: 50px;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-left: 250px;
 }
 
 .profile-img-wrapper {
@@ -22,4 +38,11 @@
 
 .profile-title-wrapper {
     text-align: center;
+}
+
+.button {
+    margin-bottom: 50px;
+    border: 2px solid black;
+    padding: 3px;
+    font-family: 'VCROSDMono';
 }

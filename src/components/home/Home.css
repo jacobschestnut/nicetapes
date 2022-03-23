@@ -1,0 +1,13 @@
+.greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'VCROSDMono';
+    height: 600px;
+    font-size: xx-large;
+}
+
+#nicetapes-logo {
+    height: 100px;
+    width: 100px;
+}

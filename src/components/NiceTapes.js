@@ -21,7 +21,6 @@ export const NiceTapes = () => {
 
   return (
     <>
-
       <NavBar clearUser={clearUser} isAuthenticated={isAuthenticated}/>
       <ApplicationViews 
           setAuthUser={setAuthUser}

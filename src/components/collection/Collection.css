@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .collection {
@@ -13,4 +14,11 @@
 
 .movie-collection {
     margin-bottom: 50px;
+}
+
+.button {
+    margin-bottom: 50px;
+    border: 2px solid black;
+    padding: 3px;
+    font-family: 'VCROSDMono';
 }

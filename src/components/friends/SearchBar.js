@@ -69,7 +69,7 @@ export const SearchBar = ({ placeholder, data }) => {
                   <p>{value.username}</p>
                   <div className="space"></div>
                 </Link>
-                <button id="ejectBtn"><img src="https://cdn.iconscout.com/icon/free/png-256/eject-43-432789.png" id="ejectImg" type="button" onClick={() => handleFollow(value.id)}/></button>
+                <button id="ejectBtn"><img src="http://simpleicon.com/wp-content/uploads/play1.png" id="ejectImg" type="button" onClick={() => handleFollow(value.id)}/></button>
               </div>
             );
           })}

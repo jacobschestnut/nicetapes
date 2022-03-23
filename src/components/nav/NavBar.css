@@ -12,15 +12,6 @@ nav {
     font-family: 'VCROSDMono';
 }
 
-.navBarSpacerIcons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 33.3333333333%;
-
-}
-
 .navBarSpacerLogo {
     display: flex;
     justify-content: start;
@@ -35,6 +26,20 @@ nav {
     align-items: center;
     text-align: center;
     width: 33.3333333333%;
+}
+
+.navBarSpacerIcons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    width: 33.3333333333%;
+    text-decoration: underline;
+    margin-right: 30px;
+}
+
+#profile-btn {
+    padding-right: 30px;
 }
 
 #logoText {

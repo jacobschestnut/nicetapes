@@ -20,7 +20,8 @@ export const MyCollection = () => {
 
     const handleDeleteMovie = id => {
         deleteMovie(id)
-        .then(() => getCollectionByUser(userId).then(setMovies));
+        .then(() => getCollectionByUser(userId).then(setMovies))
+        .then(window.location.reload());
     }
 
     return (
@@ -32,7 +33,7 @@ export const MyCollection = () => {
             <section className="movie-collection">
                 {movies.map(movie => <MyCollectionCard key={movie.id} movie={movie} handleDeleteMovie={handleDeleteMovie} />)}
             </section>
-            <Link id="add-tape-link" to={`/addtape`}><button className="add-tape-btn">Add Tape</button></Link>
+            <Link id="add-tape-link" to={`/addtape`}><button className="button">Add Tape</button></Link>
             </div>
         </div>
     )
