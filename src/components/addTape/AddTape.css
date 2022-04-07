@@ -1,3 +1,19 @@
 label, input {
     font-family: 'VCROSDMono';
 }
+
+.add-movie-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+

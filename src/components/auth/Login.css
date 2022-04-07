@@ -2,3 +2,41 @@
   min-width: 15rem;
   min-height: 5rem;
 }
+
+#authBtn {
+  padding: 2px;
+  margin: 0;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+#authBtns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form--login fieldset{
+  border: none;
+}
+
+.form--login {
+  text-align: center;
+}
+
+.registerLink {
+  width: 100px;
+}
+
+.container--login {
+  margin: 200px;;
+}
+
+#authBtn:hover {
+  background-color: black;
+  color: white;
+  -webkit-transition: color 250ms linear;
+  -webkit-transition: background-color 150ms linear;
+  -ms-transition: background-color 150ms linear;
+  transition: background-color 150ms linear;
+}

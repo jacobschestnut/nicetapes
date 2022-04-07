@@ -22,6 +22,7 @@ h1, h2, h3 {
 button {
     cursor: pointer;
     background-color: transparent;
+    font-family: 'VCROSDMono';
 }
 
 #ejectBtn {
@@ -29,4 +30,17 @@ button {
     background-color: transparent;
     outline: none;
     cursor: default;
+}
+
+a {
+    font-family: 'VCROSDMono';
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: color 250ms linear;
+    -webkit-transition: background-color 150ms linear;
+    -ms-transition: background-color 150ms linear;
+    transition: background-color 150ms linear;
 }

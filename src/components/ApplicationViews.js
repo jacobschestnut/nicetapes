@@ -8,6 +8,8 @@ import { Collection } from "./collection/Collection"
 import { MyCollection } from "./collection/MyCollection"
 import { Home } from "./home/Home"
 import { AddTape } from "./addTape/AddTape"
+import { Movies } from "./movies/Movies"
+import { MovieDetail } from "./movies/MovieDetail"
 
 export const ApplicationViews = ({ isAuthenticated, setIsAuthenticated }) => {
   const PrivateRoute = ({ children }) => {
@@ -22,18 +24,19 @@ export const ApplicationViews = ({ isAuthenticated, setIsAuthenticated }) => {
   return (
     <>
       <Routes>
-
+        
         <Route exact path="/login" element={<Login setAuthUser={setAuthUser} />} />
         <Route exact path="/register" element={<Register />} />
         <Route  path="/" element={
             <PrivateRoute>
-              <Home />
+              <Movies />
             </PrivateRoute>
         } />
 
         <Route path="/follows" element={<PrivateRoute><Friends /></PrivateRoute>} />
         <Route path="/users/:profileId" element={<PrivateRoute><Profile/></PrivateRoute>} />
         <Route path="/collections/:profileId" element={<PrivateRoute><Collection/></PrivateRoute>} />
+        <Route path="/library/:movieId" element={<MovieDetail/>} />
         <Route path="/mycollection" element={<PrivateRoute><MyCollection /></PrivateRoute>} />
 
         <Route path="/addtape" element={<PrivateRoute><AddTape/></PrivateRoute>} />

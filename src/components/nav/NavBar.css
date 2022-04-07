@@ -3,6 +3,15 @@
     padding: 3px;
 }
 
+#nav-link:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: color 250ms linear;
+    -webkit-transition: background-color 150ms linear;
+    -ms-transition: background-color 150ms linear;
+    transition: background-color 150ms linear;
+}
+
 nav {
     background-color: white;
     display: flex;
@@ -34,7 +43,6 @@ nav {
     align-items: center;
     text-align: center;
     width: 33.3333333333%;
-    text-decoration: underline;
     margin-right: 30px;
 }
 

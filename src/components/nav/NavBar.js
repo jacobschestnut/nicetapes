@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom"
 import "./NavBar.css"
 
-export const NavBar = () => {
+export const NavBar = ({isAuthenticated}) => {
 
-  const [currentUser, setCurrentUser] = useState(JSON.parse(sessionStorage.getItem("niceTapes_user")));
+  const [currentUser, setCurrentUser] = useState(sessionStorage.getItem("niceTapes_user"));
   const navigate = useNavigate()
 
   const handleLogout = () => {

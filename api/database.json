@@ -18,7 +18,7 @@
       "email": "asdfjkldsfa@yahoo.com",
       "username": "bigSm0ke",
       "quote": "Let's start a fight club!",
-      "imageLink": "https://www.pcinvasion.com/wp-content/uploads/2021/08/Kings-Bounty-2-Kings-Bounty-II-how-to-recrruit-red-dragon-bone-dragon-chimera--800x400.jpg",
+      "imageLink": "https://i.pinimg.com/originals/72/a0/fa/72a0faa36ed1f338578ea00d36ed9350.jpg",
       "id": 3
     },
     {
@@ -124,18 +124,13 @@
     },
     {
       "currentUserId": 1,
-      "userId": 3,
-      "id": 22
+      "userId": 5,
+      "id": 24
     },
     {
       "currentUserId": 1,
       "userId": 2,
-      "id": 23
-    },
-    {
-      "currentUserId": 1,
-      "userId": 5,
-      "id": 24
+      "id": 25
     }
   ],
   "movies": [
@@ -144,76 +139,83 @@
       "title": "The Lost Boys",
       "director": "Joel Schumacher",
       "yearReleased": 1987,
-      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/nH1lvyQvfbL5GKScTtT6zkIvDEn.jpg"
+      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/nH1lvyQvfbL5GKScTtT6zkIvDEn.jpg",
+      "description": "A mother and her two teenage sons move to a seemingly nice and quiet small coastal California town yet soon find out that it's overrun by bike gangs and vampires. A couple of teenage friends take it upon themselves to hunt down the vampires that they suspect of a few mysterious murders and restore peace and calm to their town."
     },
     {
       "id": 2,
       "title": "Suspiria",
       "director": "Dario Argento",
       "yearReleased": 1977,
-      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/5ya8jTbNZTrCFUx9OwpNBjCivXY.jpg"
+      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/5ya8jTbNZTrCFUx9OwpNBjCivXY.jpg",
+      "description": "An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders."
     },
     {
       "id": 3,
       "title": "Friday the 13th: The Final Chapter",
       "director": "Joseph Zito",
       "yearReleased": 1984,
-      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/juNLO2rPHbelXYe5h92tYycpUpi.jpg"
+      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/juNLO2rPHbelXYe5h92tYycpUpi.jpg",
+      "description": "After being mortally wounded and taken to the morgue, murderer Jason Voorhees spontaneously revives and embarks on a killing spree as he makes his way back to his home at Crystal Lake."
     },
     {
       "id": 4,
       "title": "Ninja III: The Domination",
       "director": "Sam Firstenberg",
       "yearReleased": 1984,
-      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/2pwMy8nS1Tiyo6NOvLUOUjehw9.jpg"
+      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/2pwMy8nS1Tiyo6NOvLUOUjehw9.jpg",
+      "description": "A female aerobic instructor is possessed by the soul of a fallen ninja when coming to his aid. The spirit seeks revenge on those who killed him and uses the instructor's body to carry out his mission. The only way the spirit will leave her body is with the help of another ninja."
     },
     {
       "id": 5,
       "title": "Blade",
       "director": "Stephen Norrington",
       "yearReleased": 1998,
-      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/e6ErRnIgKmoBtcKpht3amsMfo52.jpg"
+      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/e6ErRnIgKmoBtcKpht3amsMfo52.jpg",
+      "description": "The Daywalker known as 'Blade' - a half-vampire, half-mortal man - becomes the protector of humanity against an underground army of vampires."
     },
     {
       "id": 6,
       "title": "Mandy",
       "director": "Panos Cosmatos",
       "yearReleased": 2018,
-      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/m0yf7J7HsKeK6E81SMRcX8vx6mH.jpg"
+      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/m0yf7J7HsKeK6E81SMRcX8vx6mH.jpg",
+      "description": "The Shadow Mountains, 1983. Red and Mandy lead a loving and peaceful existence; but when their pine-scented haven is savagely destroyed, Red is catapulted into a phantasmagoric journey filled with bloody vengeance and laced with fire."
     },
     {
       "id": 7,
       "title": "Blood Rage",
       "director": "John Grissmer",
       "yearReleased": 1987,
-      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/h18CdUhYxNt6RquvEleGRU2V2T4.jpg"
+      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/h18CdUhYxNt6RquvEleGRU2V2T4.jpg",
+      "description": "In 1974, Terry commits a murder and pins it on his twin brother, Todd. Ten years later, Todd escapes from a mental institution on the same day as Terry’s murderous instincts resurface."
     },
     {
       "id": 8,
       "title": "Silent Night, Deadly Night Part 2",
       "director": "Lee Harry",
       "yearReleased": 1987,
-      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/bg2wBjg5zNoVxZnt7RarVQBxUuj.jpg"
+      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/bg2wBjg5zNoVxZnt7RarVQBxUuj.jpg",
+      "description": "After being traumatized by his brother Billy's murderous rampage years earlier, Ricky Caldwell has become a serial killer himself and is now living in a mental hospital. Relating his story to a psychiatrist, Ricky recounts the details of their murder sprees and vows to avenge his brother's death."
     },
     {
-      "title": "The Blindside",
-      "director": "John Lee Hancock",
-      "yearReleased": 2009,
-      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/bMgq7VBriuBFknXEe9E9pVBYGZq.jpg",
-      "id": 9
+      "title": "A Nightmare on Elm Street",
+      "director": "Wes Craven",
+      "yearReleased": 1984,
+      "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wGTpGGRMZmyFCcrY2YoxVTIBlli.jpg",
+      "id": 9,
+      "description": "Teenagers in a small town are dropping like flies, apparently in the grip of mass hysteria causing their suicides. A cop's daughter, Nancy Thompson, traces the cause to child molester Fred Krueger, who was burned alive by angry parents many years before. Krueger has now come back in the dreams of his killers' children, claiming their lives as his revenge. Nancy and her boyfriend, Glen, must devise a plan to lure the monster out of the realm of nightmares and into the real world..."
+    },
+    {
+      "title": "Test",
+      "director": "dsd",
+      "yearReleased": 1313,
+      "description": "sdsd",
+      "imageLink": "sdsd",
+      "id": 10
     }
   ],
   "collections": [
-    {
-      "id": 1,
-      "userId": 1,
-      "movieId": 1
-    },
-    {
-      "id": 2,
-      "userId": 1,
-      "movieId": 2
-    },
     {
       "id": 3,
       "userId": 2,
@@ -243,6 +245,16 @@
       "id": 8,
       "userId": 4,
       "movieId": 8
+    },
+    {
+      "movieId": 3,
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "movieId": 9,
+      "userId": 1,
+      "id": 11
     }
   ],
   "reviews": []

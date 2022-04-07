@@ -42,7 +42,7 @@
 
 .button {
     margin-bottom: 50px;
-    border: 2px solid black;
+    border: 2px inset black;
     padding: 3px;
     font-family: 'VCROSDMono';
 }

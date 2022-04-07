@@ -46,27 +46,23 @@ export const Login = ({setAuthUser}) => {
             </dialog>
             <section>
                 <form className="form--login" onSubmit={handleLogin}>
-                    <h1>Nice Tapes</h1>
-                    <h2>Please sign in</h2>
                     <fieldset>
-                        <label htmlFor="inputEmail"> Email address </label>
+                        <label htmlFor="inputEmail"> Email Address: </label>
                         <input type="email"
                             id="email"
                             className="form-control"
-                            placeholder="Email address"
+                            placeholder="enter email address..."
                             required autoFocus
                             value={loginUser.email}
                             onChange={handleInputChange} />
                     </fieldset>
-                    <fieldset>
-                        <button type="submit">
-                            Sign in
+                    <fieldset id="authBtns">
+                        <button type="submit" class="button" id="authBtn">
+                            Sign In
                         </button>
+                        <Link to="/register" className="registerLink"><button class="button" id="authBtn">Register</button></Link>
                     </fieldset>
                 </form>
-            </section>
-            <section className="link--register">
-                <Link to="/register">Register for an account</Link>
             </section>
         </main>
     )
