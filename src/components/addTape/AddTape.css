@@ -17,3 +17,14 @@ label, input {
     margin: 10px;
 }
 
+.form-input label {
+    margin-bottom: 3px;
+}
+
+#submitBtn {
+    margin: 10px;
+}
+
+#titleWrap {
+    margin: 0px;
+}

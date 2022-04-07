@@ -46,3 +46,8 @@
     padding: 3px;
     font-family: 'VCROSDMono';
 }
+
+#collectionBtn {
+    width: 715px;
+    height: 250px;
+}

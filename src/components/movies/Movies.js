@@ -21,8 +21,8 @@ export const Movies = () => {
 
     return (
         <div className="container">
-           <div className="greeting">
-                WELCOME TO NICE TAPES
+           <div className="greeting typewriter">
+                <h2>WELCOME TO NICE TAPES</h2>
             </div>
            <div className="collection">
             <section className="movie-collection">

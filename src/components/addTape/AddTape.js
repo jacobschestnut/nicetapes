@@ -46,7 +46,7 @@ export const AddTape = () => {
             <div className="searchWrapper">
                 <SearchBarMovies id="searchBar-font" placeholder="Search for a title to add..." data={movies}/>
             </div>
-            <div className="title-wrapper">
+            <div className="title-wrapper" id="titleWrap">
                 <h1><span>Don't See Your Title?</span></h1>
                 <h3>(add one to the database)</h3>
             </div> 
@@ -71,7 +71,7 @@ export const AddTape = () => {
                     <label className="input-label">Image Link:</label>
                     <input type="text" value={imageLink} onChange={(e) => setImageLink(e.target.value)}></input>
                 </div>
-                <button className="button" type="submit">Submit</button>
+                <button id="submitBtn" className="button" type="submit">Submit</button>
             </form>
         </div>
     )

@@ -37,7 +37,7 @@ export const Profile = () => {
                     </div>
                 </div>
             </section>
-            <Link to={`/collections/${user.id}`}><button className="button">{user.username}'s collection</button></Link>
+            <Link to={`/collections/${user.id}`}><button className="button" id="collectionBtn">{user.username}'s collection</button></Link>
            </div>
            </div> 
         </>
