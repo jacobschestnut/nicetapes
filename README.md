@@ -29,17 +29,17 @@ Register, Login and Logout functionality
 - [Wireframe](https://miro.com/app/board/uXjVOHzxGgY=/)
 - [ERD](https://dbdiagram.io/d/62113ed9485e433543e16fe4)
 
-# For the Backend:
+## For the Backend:
 
 In the `nicetapes/api` directory, run: `json-server -p 8088 database.json -w`
 
-# For the Frontend:
+## For the Frontend:
 
-## Getting Started with Create React App
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
