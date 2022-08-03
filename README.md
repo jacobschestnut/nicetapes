@@ -29,6 +29,11 @@ all done from scratch with CSS.
 - [Wireframe](https://miro.com/app/board/uXjVOHzxGgY=/)
 - [ERD](https://dbdiagram.io/d/62113ed9485e433543e16fe4)
 
+### Screenshots:
+<img src="./screenshots/login.png" width="350" title="login/register">
+<img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+
+
 ## For the Backend:
 
 In the `nicetapes/api` directory, run: `json-server -p 8088 database.json -w`
