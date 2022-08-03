@@ -30,7 +30,7 @@ all done from scratch with CSS.
 - [ERD](https://dbdiagram.io/d/62113ed9485e433543e16fe4)
 
 ### Screenshots:
-<img src="./screenshots/login.png" width="350" title="login/register">
+<img src="./screenshots/login.png" width="800" title="login/register">
 <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
 
 
