@@ -1,4 +1,4 @@
-# Welcome to Nice Tapes!
+# Welcome to nice tapes!
 Nice Tapes is my front-end capstone project at NSS. It's a web app designed to allow users to virtually collect vintage VHS tapes (which reflects their physical collection) and share their collections with other Nice Tapes users. This project utilizes JSON database queries to retrieve and manipulate unique data for each user. Data is presented with React/Javascript and stylized with CSS. A major goal for the project was to stylize the app with as little outside resources as possible, as it was
 all done from scratch with CSS.
 
@@ -25,11 +25,11 @@ all done from scratch with CSS.
 
 * As a user, I would like the ability to create a profile page that showcases some of my own information as well as a quote from a movie that I enjoy. This is so that I can give people who are interested a closer look at what my tastes and interests are.
 
-### Project Planning:
+## Project Planning:
 - [Wireframe](https://miro.com/app/board/uXjVOHzxGgY=/)
 - [ERD](https://dbdiagram.io/d/62113ed9485e433543e16fe4)
 
-### Screenshots:
+## Screenshots:
 - Login
 <img src="./screenshots/login.png" width="800" title="login/register">
 
