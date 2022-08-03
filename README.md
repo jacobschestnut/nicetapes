@@ -31,8 +31,12 @@ all done from scratch with CSS.
 
 ### Screenshots:
 <img src="./screenshots/login.png" width="800" title="login/register">
-<img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
-
+<img src="./screenshots/welcomescreen.png" width="800" title="home">
+<img src="./screenshots/mycollection.png" width="800" title="my collection">
+<img src="./screenshots/addtape" width="800" title="add tape">
+<img src="./screenshots/following.png" width="800" title="following">
+<img src="./screenshots/userprofile.png" width="800" title="user profile">
+<img src="./screenshots/usercollection.png" width="800" title="user collection">
 
 ## For the Backend:
 
