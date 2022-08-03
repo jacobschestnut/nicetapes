@@ -3,10 +3,10 @@ Nice Tapes is my front-end capstone project at NSS. It's a web app designed to a
 all done from scratch with CSS.
 
 ## Full CRUD:
-- CREATE follow friends and add movies to your collection / add custom titles
-- READ view your own collection as well as others'
-- UPDATE your own collection and information for custom titles
-- DELETE movies from your collection and unfollow friends
+- CREATE - follow friends and add movies to your collection / add custom titles
+- READ - view your own collection as well as others'
+- UPDATE - your own collection and information for custom titles
+- DELETE - movies from your collection and unfollow friends
 
 - Register, Login and Logout functionality
 
