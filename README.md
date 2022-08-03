@@ -30,12 +30,25 @@ all done from scratch with CSS.
 - [ERD](https://dbdiagram.io/d/62113ed9485e433543e16fe4)
 
 ### Screenshots:
+- Login
 <img src="./screenshots/login.png" width="800" title="login/register">
+
+- Home
 <img src="./screenshots/welcomescreen.png" width="800" title="home">
+
+- My Collection
 <img src="./screenshots/mycollection.png" width="800" title="my collection">
-<img src="./screenshots/addtape" width="800" title="add tape">
+
+- Add Tape
+<img src="./screenshots/addtape.png" width="800" title="add tape">
+
+- Following
 <img src="./screenshots/following.png" width="800" title="following">
+
+- User Profile
 <img src="./screenshots/userprofile.png" width="800" title="user profile">
+
+- User Collection
 <img src="./screenshots/usercollection.png" width="800" title="user collection">
 
 ## For the Backend:
