@@ -3,12 +3,12 @@ Nice Tapes is my front-end capstone project at NSS. It's a web app designed to a
 all done from scratch with CSS.
 
 ## Full CRUD:
-CREATE follow friends and add movies to your collection / add custom titles
-READ view your own collection as well as others'
-UPDATE your own collection and information for custom titles
-DELETE movies from your collection and unfollow friends
+- CREATE follow friends and add movies to your collection / add custom titles
+- READ view your own collection as well as others'
+- UPDATE your own collection and information for custom titles
+- DELETE movies from your collection and unfollow friends
 
-Register, Login and Logout functionality
+- Register, Login and Logout functionality
 
 ## Stretch Goals:
 - integrate external movie database API to eliminate need for local API
@@ -16,7 +16,7 @@ Register, Login and Logout functionality
 - further profile customization
 - further styling
 
-### User Stories:
+## User Stories:
 * As a user/collector, I would like the ability to add a movie to my collection if owned movies and be able to view that collection. This is so that I can share my collection with my friends and have an organized view of the movies that I own. It's also nice to show off.
 
 * As a user/critic, I would like to be able to add movies to my collection that might not be well known. This is so that I can still keep up with my collection even if it includes lesser known titles.
