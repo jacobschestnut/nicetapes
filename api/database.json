@@ -34,6 +34,14 @@
       "quote": "The sixth sense.",
       "imageLink": "http://images6.fanpop.com/image/photos/40000000/Grim-Reapers-awesome-skulls-n-stuff-40009149-299-266.jpg",
       "id": 5
+    },
+    {
+      "email": "jacobschestnut@gmail.com",
+      "username": "jacobchestnut",
+      "quote": "\"I'll be back\"",
+      "imageLink": "https://m.media-amazon.com/images/M/MV5BMTU2NTc2NDAwNF5BMl5BanBnXkFtZTgwNjk4MzgwMzI@._V1_.jpg",
+      "profileLink": "http://localhost:3000/users/jacobchestnut",
+      "id": 6
     }
   ],
   "friends": [
@@ -119,18 +127,23 @@
     },
     {
       "currentUserId": 1,
-      "userId": 4,
-      "id": 21
-    },
-    {
-      "currentUserId": 1,
       "userId": 2,
       "id": 25
     },
     {
-      "currentUserId": 1,
-      "userId": 5,
+      "currentUserId": 6,
+      "userId": 2,
+      "id": 26
+    },
+    {
+      "currentUserId": 6,
+      "userId": 3,
       "id": 27
+    },
+    {
+      "currentUserId": 6,
+      "userId": 5,
+      "id": 28
     }
   ],
   "movies": [
@@ -205,6 +218,14 @@
       "imageLink": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wGTpGGRMZmyFCcrY2YoxVTIBlli.jpg",
       "id": 9,
       "description": "Teenagers in a small town are dropping like flies, apparently in the grip of mass hysteria causing their suicides. A cop's daughter, Nancy Thompson, traces the cause to child molester Fred Krueger, who was burned alive by angry parents many years before. Krueger has now come back in the dreams of his killers' children, claiming their lives as his revenge. Nancy and her boyfriend, Glen, must devise a plan to lure the monster out of the realm of nightmares and into the real world..."
+    },
+    {
+      "title": "Samurai Cop",
+      "director": "Amir Shervan",
+      "yearReleased": 1991,
+      "description": "Samurai Cop solves crime.",
+      "imageLink": "https://www.themoviedb.org/t/p/w1280/jOlz0kpxlLY5xixyDYpcYUi2SJy.jpg",
+      "id": 10
     }
   ],
   "collections": [
@@ -244,9 +265,14 @@
       "id": 10
     },
     {
-      "movieId": 9,
-      "userId": 1,
-      "id": 11
+      "movieId": 7,
+      "userId": 6,
+      "id": 12
+    },
+    {
+      "movieId": 10,
+      "userId": 6,
+      "id": 13
     }
   ],
   "reviews": []

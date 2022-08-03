@@ -27,7 +27,6 @@ export const NiceTapes = () => {
           isAuthenticated={isAuthenticated}
           setIsAuthenticated={setIsAuthenticated}
       />
-     
     </>
   )
 } 
