@@ -26,14 +26,14 @@ Register, Login and Logout functionality
 * As a user, I would like the ability to create a profile page that showcases some of my own information as well as a quote from a movie that I enjoy. This is so that I can give people who are interested a closer look at what my tastes and interests are.
 
 ### Project Planning:
-[Wireframe](https://miro.com/app/board/uXjVOHzxGgY=/)
-[ERD](https://dbdiagram.io/d/62113ed9485e433543e16fe4)
+- [Wireframe](https://miro.com/app/board/uXjVOHzxGgY=/)
+- [ERD](https://dbdiagram.io/d/62113ed9485e433543e16fe4)
 
-# For the back end:
+# For the Backend:
 
-In the nicetapes/api directory, run: json-server -p 8088 database.json -w
+In the `nicetapes/api` directory, run: `json-server -p 8088 database.json -w`
 
-# For the front end:
+# For the Frontend:
 
 ## Getting Started with Create React App
 
