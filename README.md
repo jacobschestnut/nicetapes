@@ -1,4 +1,4 @@
-# Welcome to nice tapes!
+# Welcome to Nice Tapes!
 Nice Tapes is my front-end capstone project at NSS. It's a web app designed to allow users to virtually collect vintage VHS tapes (which reflects their physical collection) and share their collections with other Nice Tapes users. This project utilizes JSON database queries to retrieve and manipulate unique data for each user. Data is presented with React/Javascript and stylized with CSS. A major goal for the project was to stylize the app with as little outside resources as possible, as it was
 all done from scratch with CSS.
 
